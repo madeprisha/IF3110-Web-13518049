@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0px !important;
+  font-family: 'Saira Semi Condensed', monospace;
+}
+
+header {
+  font-family: monospace;
+  text-align: center;
+  background: rgb(255, 212, 0);
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+header > h1 {
+  margin: 0px;
+  font-weight: 700;
+}
+
+.main-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  background: rgb(255, 212, 0);
+  font-size: 15px;
+  color: white;
+}
+
+button {
+  font-size: 15px;
+  border: none;
+  margin: 3px;
+  background: none;
+  color: white;
+}
+
+.content {
+  margin: 20px;
+  font-size: 14px;
+}
+
+#about-me-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 203px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#contact-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.contact-single-img {
+  padding: 10px;
+}

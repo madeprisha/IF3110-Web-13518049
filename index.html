@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Belajar mandiri HTML dan CSS">
+    <meta name="author" content="Made Prisha Wulansari">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Tugas IF3110</title>
+
+  </head>
+
+  <body>
+
+    <header id="main-header">
+      <h1>MyBlog</h1>
+      <div class="main-button">
+        <button type="button" name="button_home" onclick="homeClicked()">Home</button>
+        <div>|</div>
+        <button type="button" name="button-about-me" onclick="aboutMeClicked()">About Me</button>
+      </div>
+    </header>
+
+    <main>
+
+
+
+      <div id="home-content" class="content">
+        Selamat datang di MyBlog! Web ini merupakan tugas mata kuliah Pengembangan Aplikasi Berbasis Web.
+      </div>
+
+      <div id="about-me-content" class="content">
+        <center>
+          <img src="img/profile.png" width="150px" id="profile-picture" />
+        </center>
+        <h2>
+          Made Prisha Wulansari
+        </h2>
+        <p>Mahasiswa Teknik Informatika ITB semester 5.</p>
+        <b>Bogor, Jawa Barat</b>
+        <br />
+        <div id="contact-img">
+          <a href="mailto:made.prisha@gmail.com">
+            <center>
+              <img src="img/GMicon.png" width="30px" class="contact-single-img">
+            </center>
+          </a>
+          <a href="http://www.instagram.com/madeprisha">
+            <center>
+              <img src="img/IGicon.png" width="30px" class="contact-single-img">
+            </center>
+          </a>
+        </div>
+      </div>
+
+      <script src="js/main.js">
+      </script>
+
+    </main>
+
+  </body>
+</html>
